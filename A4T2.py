@@ -1,0 +1,10 @@
+A=input('Enter text to write to the file')
+file=open('output.txt','a')
+appending_file=file.write(A)
+print(appending_file)
+file.close()
+
+file=open('output.txt','r')
+reading_file=file.read()
+print(reading_file)
+file.close()
